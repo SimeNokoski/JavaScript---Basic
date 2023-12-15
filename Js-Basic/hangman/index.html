@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="title">
+        <h1>HANGMAN</h1>
+        <h2>VANILLA JAVASCRIPT HANGMAN GAME</h1><br>
+            <h2>Use the alpabet below to guess the word, or click hint to get a clue.</h1>
+    </div>
+
+    <div id="alphabet">
+        <button class="btn">q</button>
+        <button class="btn">w</button>
+        <button class="btn">e</button>
+        <button class="btn">r</button>
+        <button class="btn">t</button>
+        <button class="btn">y</button>
+        <button class="btn">u</button>
+        <button class="btn">i</button>
+        <button class="btn">o</button>
+        <button class="btn">p</button>
+        <button class="btn">a</button>
+        <button class="btn">s</button>
+        <button class="btn">d</button>
+        <button class="btn">f</button>
+        <button class="btn">g</button>
+        <button class="btn">h</button>
+        <button class="btn">j</button>
+        <button class="btn">k</button>
+        <button class="btn">l</button>
+        <button class="btn">z</button>
+        <button class="btn">x</button>
+        <button class="btn">c</button>
+        <button class="btn">v</button>
+        <button class="btn">b</button>
+        <button class="btn">n</button>
+        <button class="btn">m</button>
+    </div>
+
+    <div id="category"> </div>
+    <div id="winLost"></div>
+
+    <div id="correctWord">
+    </div>
+
+    <div id="box">
+        <div id="lives">You have 6 lives</div>
+        <div id="clue">Clue - </div>
+        <div id="pictureBox">
+            <div id="pictureDiv">        
+                    <img id="img" src="./img/images.jfif" alt="">
+            </div>
+        </div>
+        
+        <div id="newGameDiv">
+            <button id="newGame">Play again</button>
+            <button id="hint">Hint</button>
+        </div>
+    </div>
+
+    <div id="btnCategoryDiv">
+        <h1>Choose a category to <br> Start the Game</h1><br><br>
+        <button id="btnCategory1" class="btnCategorystyle">Name of famous car brands.</button>
+        <button id="btnCategory2" class="btnCategorystyle">Name of countries that are in Europe. </button>
+        <button id="btnCategory3" class="btnCategorystyle">Name of Macedonian cities.</button>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
